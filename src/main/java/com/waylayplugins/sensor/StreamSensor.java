@@ -75,7 +75,7 @@ public class StreamSensor implements SensorPlugin {
 
     @Override
     public LinkedHashSet<String> getSupportedStates() {
-        return new LinkedHashSet<>(Arrays.asList(new String[]{"Above", "Equal", "Below"}));
+        return new LinkedHashSet<>(Arrays.asList(new String[]{"Below", "Equal", "Above"}));
     }
 
     @Override
