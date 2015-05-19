@@ -10,6 +10,7 @@
 
     <property name="classes" value="${basedir}/out" />
     <property name="src" value="${basedir}/src/main/java" />
+    <property name="plugin_resources" value="${basedir}/src/main/resources" />
     <property name="src_test" value="${basedir}/src/test/java"/>
     <property name="res_test" value="${basedir}/src/test/resources"/>
     <property name="classes_test" value="${basedir}/test_out" />
@@ -64,6 +65,9 @@
                 <include name="**/*.class" />
                 <exclude name="production/**"/>
                 <exclude name="test/**"/>
+            </fileset>
+            <fileset dir="${plugin_resources}">
+                <include name="**/*.html" />
             </fileset>
             <metainf dir="${basedir}/src/main/resources/META-INF" includes="**" />
         </jar>
