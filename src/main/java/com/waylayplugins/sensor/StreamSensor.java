@@ -16,7 +16,7 @@ import java.util.concurrent.ConcurrentHashMap;
         name = StreamSensor.NAME,
         version = "1.0.1",
         author = "Veselin",
-        category = "Functions",
+        category = "Streaming",
         iconURL = "https://raw.githubusercontent.com/waylayio/documentation/master/icons/engine_data_stream.png",
         documentationURL = "")
 
