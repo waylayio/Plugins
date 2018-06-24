@@ -17,7 +17,7 @@ import java.util.concurrent.ConcurrentHashMap;
         version = "1.0.1",
         author = "Veselin",
         category = "Streaming",
-        iconURL = "https://static.waylay.io/icons/engine_data_stream.png",
+        iconURL = "https://raw.githubusercontent.com/waylayio/documentation/master/icons/engine_data_stream.png",
         documentationURL = "")
 
 public class StreamSensor implements SensorPlugin {
